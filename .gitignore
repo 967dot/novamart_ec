@@ -1,0 +1,9 @@
+# macOS が外付けドライブに作る不要ファイル
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# ローカル専用の設定・ログ
+.env
+*.log

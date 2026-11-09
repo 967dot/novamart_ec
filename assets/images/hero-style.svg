@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<title id="title">Everyday Style</title><desc id="desc">バッグ、スニーカー、美容アイテムを配置したライフスタイルビジュアル</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffefe5"/><stop offset=".52" stop-color="#f7bca8"/><stop offset="1" stop-color="#9e8ed7"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-opacity=".23"/></filter></defs>
+<rect width="1600" height="620" fill="url(#bg)"/><circle cx="1250" cy="240" r="270" fill="#fff" opacity=".2"/><circle cx="1470" cy="80" r="110" fill="#fff" opacity=".2"/>
+<g transform="translate(1070 305)" filter="url(#s)"><path d="M-155-85h310l-28 260h-254z" fill="#273f57"/><path d="M-85-85c0-95 170-95 170 0" fill="none" stroke="#273f57" stroke-width="26"/><path d="M-100-15h200" stroke="#ffb21e" stroke-width="10"/></g>
+<g transform="translate(1360 430) rotate(-10)" filter="url(#s)"><path d="M-150 15c52-72 130-80 196-29l92 72c18 14 10 45-13 49l-260 48c-36 7-61-31-42-61z" fill="#f7f8fb"/><path d="M-45-16 5 44M20 0l48 58" stroke="#9e8ed7" stroke-width="13"/><path d="M-128 111h245" stroke="#273f57" stroke-width="16" stroke-linecap="round"/></g>
+<g transform="translate(950 420)" filter="url(#s)"><rect x="-70" y="-120" width="140" height="240" rx="62" fill="#fff"/><rect x="-48" y="-95" width="96" height="145" rx="42" fill="#e36b87"/><circle cy="82" r="13" fill="#e36b87"/></g>
+</svg>

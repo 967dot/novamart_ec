@@ -1,0 +1,74 @@
+CREATE DATABASE IF NOT EXISTS novamart_chatgpt_secure
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE novamart_chatgpt_secure;
+
+CREATE TABLE IF NOT EXISTS users (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(80) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS products (
+  id VARCHAR(16) PRIMARY KEY,
+  name VARCHAR(160) NOT NULL,
+  category VARCHAR(40) NOT NULL,
+  category_label VARCHAR(80) NOT NULL,
+  price INT UNSIGNED NOT NULL,
+  original_price INT UNSIGNED NULL,
+  rating DECIMAL(2,1) NOT NULL DEFAULT 0.0,
+  reviews INT UNSIGNED NOT NULL DEFAULT 0,
+  stock INT UNSIGNED NOT NULL DEFAULT 0,
+  badge VARCHAR(80) NULL,
+  image VARCHAR(255) NOT NULL,
+  summary VARCHAR(500) NOT NULL,
+  description TEXT NOT NULL,
+  features_json JSON NOT NULL,
+  new_arrival TINYINT(1) NOT NULL DEFAULT 0,
+  featured TINYINT(1) NOT NULL DEFAULT 0,
+  INDEX idx_products_category (category),
+  INDEX idx_products_price (price),
+  INDEX idx_products_featured_rating (featured, rating)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS reviews (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  product_id VARCHAR(16) NOT NULL,
+  user_id BIGINT UNSIGNED NOT NULL,
+  rating TINYINT UNSIGNED NOT NULL,
+  title VARCHAR(60) NOT NULL,
+  body VARCHAR(500) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_reviews_product FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE,
+  CONSTRAINT fk_reviews_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  INDEX idx_reviews_product (product_id, id)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS orders (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  order_number VARCHAR(40) NOT NULL UNIQUE,
+  user_id BIGINT UNSIGNED NOT NULL,
+  total INT UNSIGNED NOT NULL,
+  status VARCHAR(40) NOT NULL DEFAULT '発送準備中',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_orders_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  INDEX idx_orders_user (user_id, id)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS order_items (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  order_id BIGINT UNSIGNED NOT NULL,
+  product_id VARCHAR(16) NOT NULL,
+  product_name VARCHAR(160) NOT NULL,
+  unit_price INT UNSIGNED NOT NULL,
+  quantity INT UNSIGNED NOT NULL,
+  line_total INT UNSIGNED NOT NULL,
+  CONSTRAINT fk_order_items_order FOREIGN KEY (order_id) REFERENCES orders(id) ON DELETE CASCADE,
+  CONSTRAINT fk_order_items_product FOREIGN KEY (product_id) REFERENCES products(id),
+  INDEX idx_order_items_order (order_id)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS customer_profiles (id BIGINT UNSIGNED PRIMARY KEY,name VARCHAR(80) NOT NULL,email VARCHAR(255) NOT NULL,address VARCHAR(200) NOT NULL,postal_code VARCHAR(20) NOT NULL DEFAULT '',phone VARCHAR(40) NOT NULL DEFAULT '',country VARCHAR(60) NOT NULL DEFAULT '日本',CONSTRAINT fk_profile_user FOREIGN KEY(id) REFERENCES users(id) ON DELETE CASCADE) ENGINE=InnoDB;

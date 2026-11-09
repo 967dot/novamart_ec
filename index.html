@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="家電、生活用品、ファッション、書籍などを扱う架空ECサイトNovaMart。"
+    />
+    <title>NovaMart | 暮らしを更新するオンラインストア</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css?v=20261109" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/backend.js"></script>
+    <script defer src="js/app.js?v=20261109"></script>
+    <script defer src="js/home.js"></script>
+  </head>
+  <body id="top">
+    <div data-site-header></div>
+    <main class="page-main">
+      <section class="hero">
+        <div id="heroSlides"></div>
+        <div class="hero-controls">
+          <button
+            class="hero-arrow prev"
+            type="button"
+            data-hero-prev
+            aria-label="前のスライド"
+          >
+            ‹</button
+          ><button
+            class="hero-arrow next"
+            type="button"
+            data-hero-next
+            aria-label="次のスライド"
+          >
+            ›
+          </button>
+          <div class="hero-dots" id="heroDots"></div>
+        </div>
+      </section>
+      <section class="page-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h2>カテゴリから探す</h2>
+              <p>目的に合わせて、商品を素早く見つけられます。</p>
+            </div>
+            <a href="products.html">すべての商品を見る →</a>
+          </div>
+          <div class="category-grid" id="categoryGrid"></div>
+        </div>
+      </section>
+      <section class="section-tight">
+        <div class="container sale-banner">
+          <a href="products.html?sort=priceAsc">
+            <img
+              src="assets/images/banner-sale.jpg"
+              alt="対象商品が最大20%OFF。セール対象商品を見る"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="page-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h2>暮らしを変える特集</h2>
+              <p>生活シーンから選ぶ、NovaMartのおすすめ。</p>
+            </div>
+          </div>
+          <div class="promo-grid home-promo-grid">
+            <article class="promo-card">
+              <p class="eyebrow" style="color: #bdf7ed">WORKSPACE</p>
+              <h3>集中できるデスク環境をつくる</h3>
+              <p>モニター周辺、照明、チェア、入力機器まで。</p>
+              <a class="button button-secondary" href="products.html?q=デスク"
+                >特集を見る</a
+              ><span class="promo-orb"></span>
+            </article>
+            <article class="promo-card">
+              <p class="eyebrow" style="color: #ffe5b6">COFFEE TIME</p>
+              <h3>一杯の時間を、もっと丁寧に</h3>
+              <p>抽出器具と読書アイテムを集めました。</p>
+              <a class="button button-secondary" href="products.html?q=コーヒー"
+                >商品を見る</a
+              ><span class="promo-orb"></span>
+            </article>
+            <article class="promo-card">
+              <p class="eyebrow" style="color: #ffe2ec">SELF CARE</p>
+              <h3>毎日のケアを心地よく</h3>
+              <p>美容家電とリラックス用品。</p>
+              <a
+                class="button button-secondary"
+                href="products.html?category=beauty"
+                >商品を見る</a
+              ><span class="promo-orb"></span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="page-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h2>新着商品</h2>
+              <p>新しく入荷したアイテムを紹介します。</p>
+            </div>
+            <a href="products.html?sort=newest">新着をすべて見る →</a>
+          </div>
+          <div class="product-grid home-new-products" id="newProducts"></div>
+        </div>
+      </section>
+      <section class="page-section selected-products-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h2>お客様に選ばれている商品</h2>
+              <p>
+                注目度や利用シーンを基に、今おすすめしたい商品を紹介します。
+              </p>
+            </div>
+          </div>
+          <div class="selected-products-grid" id="selectedProducts"></div>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

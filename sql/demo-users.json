@@ -1,0 +1,312 @@
+[
+  {
+    "id": 1,
+    "name": "佐藤 陽翔（架空）",
+    "email": "sato.haruto@example.test",
+    "password": "Nm26!5a4c025f",
+    "address": "東京都杉並区サンプル町1-2-8 架空レジデンス3号",
+    "postal_code": "166-0001",
+    "phone": "090-0000-1001",
+    "country": "日本"
+  },
+  {
+    "id": 2,
+    "name": "鈴木 美咲（架空）",
+    "email": "suzuki.misaki@example.test",
+    "password": "Nm26!d45c7932",
+    "address": "大阪府吹田市サンプル町2-2-15 架空レジデンス6号",
+    "postal_code": "564-0001",
+    "phone": "090-0000-1002",
+    "country": "日本"
+  },
+  {
+    "id": 3,
+    "name": "高橋 蓮（架空）",
+    "email": "takahashi.ren@example.test",
+    "password": "Nm26!32738403",
+    "address": "北海道札幌市北区サンプル町3-2-22 架空レジデンス9号",
+    "postal_code": "001-0001",
+    "phone": "090-0000-1003",
+    "country": "日本"
+  },
+  {
+    "id": 4,
+    "name": "田中 結衣（架空）",
+    "email": "tanaka.yui@example.test",
+    "password": "Nm26!6ef09529",
+    "address": "宮城県仙台市青葉区サンプル町4-2-6 架空レジデンス12号",
+    "postal_code": "980-0001",
+    "phone": "090-0000-1004",
+    "country": "日本"
+  },
+  {
+    "id": 5,
+    "name": "伊藤 大翔（架空）",
+    "email": "ito.hiroto@example.test",
+    "password": "Nm26!0c2940f5",
+    "address": "愛知県名古屋市千種区サンプル町5-2-13 架空レジデンス15号",
+    "postal_code": "464-0001",
+    "phone": "090-0000-1005",
+    "country": "日本"
+  },
+  {
+    "id": 6,
+    "name": "渡辺 葵（架空）",
+    "email": "watanabe.aoi@example.test",
+    "password": "Nm26!f340c456",
+    "address": "福岡県福岡市中央区サンプル町6-2-20 架空レジデンス18号",
+    "postal_code": "810-0001",
+    "phone": "090-0000-1006",
+    "country": "日本"
+  },
+  {
+    "id": 7,
+    "name": "山本 悠真（架空）",
+    "email": "yamamoto.yuma@example.test",
+    "password": "Nm26!abb56584",
+    "address": "神奈川県横浜市港北区サンプル町7-2-4 架空レジデンス21号",
+    "postal_code": "222-0001",
+    "phone": "090-0000-1007",
+    "country": "日本"
+  },
+  {
+    "id": 8,
+    "name": "中村 陽菜（架空）",
+    "email": "nakamura.hina@example.test",
+    "password": "Nm26!efec0528",
+    "address": "京都府京都市左京区サンプル町8-2-11 架空レジデンス24号",
+    "postal_code": "606-0001",
+    "phone": "090-0000-1008",
+    "country": "日本"
+  },
+  {
+    "id": 9,
+    "name": "小林 翔太（架空）",
+    "email": "kobayashi.shota@example.test",
+    "password": "Nm26!778aecde",
+    "address": "広島県広島市中区サンプル町9-2-18 架空レジデンス27号",
+    "postal_code": "730-0001",
+    "phone": "090-0000-1009",
+    "country": "日本"
+  },
+  {
+    "id": 10,
+    "name": "加藤 凛（架空）",
+    "email": "kato.rin@example.test",
+    "password": "Nm26!34fd0196",
+    "address": "沖縄県那覇市サンプル町10-2-2 架空レジデンス30号",
+    "postal_code": "900-0001",
+    "phone": "090-0000-1010",
+    "country": "日本"
+  },
+  {
+    "id": 11,
+    "name": "吉田 健太（架空）",
+    "email": "yoshida.kenta@example.test",
+    "password": "Nm26!7f035a9f",
+    "address": "埼玉県さいたま市浦和区サンプル町11-2-9 架空レジデンス33号",
+    "postal_code": "330-0001",
+    "phone": "090-0000-1011",
+    "country": "日本"
+  },
+  {
+    "id": 12,
+    "name": "山田 さくら（架空）",
+    "email": "yamada.sakura@example.test",
+    "password": "Nm26!33de37d7",
+    "address": "千葉県船橋市サンプル町12-2-16 架空レジデンス36号",
+    "postal_code": "273-0001",
+    "phone": "090-0000-1012",
+    "country": "日本"
+  },
+  {
+    "id": 13,
+    "name": "佐々木 湊（架空）",
+    "email": "sasaki.minato@example.test",
+    "password": "Nm26!14c722b5",
+    "address": "兵庫県神戸市灘区サンプル町13-2-23 架空レジデンス39号",
+    "postal_code": "657-0001",
+    "phone": "090-0000-1013",
+    "country": "日本"
+  },
+  {
+    "id": 14,
+    "name": "山口 七海（架空）",
+    "email": "yamaguchi.nanami@example.test",
+    "password": "Nm26!11fbaa13",
+    "address": "静岡県静岡市葵区サンプル町14-2-7 架空レジデンス42号",
+    "postal_code": "420-0001",
+    "phone": "090-0000-1014",
+    "country": "日本"
+  },
+  {
+    "id": 15,
+    "name": "松本 颯太（架空）",
+    "email": "matsumoto.sota@example.test",
+    "password": "Nm26!66642e7d",
+    "address": "新潟県新潟市中央区サンプル町15-2-14 架空レジデンス45号",
+    "postal_code": "950-0001",
+    "phone": "090-0000-1015",
+    "country": "日本"
+  },
+  {
+    "id": 16,
+    "name": "井上 彩花（架空）",
+    "email": "inoue.ayaka@example.test",
+    "password": "Nm26!455d52a2",
+    "address": "長野県松本市サンプル町16-2-21 架空レジデンス48号",
+    "postal_code": "390-0001",
+    "phone": "090-0000-1016",
+    "country": "日本"
+  },
+  {
+    "id": 17,
+    "name": "木村 陸（架空）",
+    "email": "kimura.riku@example.test",
+    "password": "Nm26!97c92613",
+    "address": "石川県金沢市サンプル町17-2-5 架空レジデンス51号",
+    "postal_code": "920-0001",
+    "phone": "090-0000-1017",
+    "country": "日本"
+  },
+  {
+    "id": 18,
+    "name": "林 美月（架空）",
+    "email": "hayashi.mizuki@example.test",
+    "password": "Nm26!b2d655d0",
+    "address": "岡山県倉敷市サンプル町18-2-12 架空レジデンス54号",
+    "postal_code": "710-0001",
+    "phone": "090-0000-1018",
+    "country": "日本"
+  },
+  {
+    "id": 19,
+    "name": "清水 大和（架空）",
+    "email": "shimizu.yamato@example.test",
+    "password": "Nm26!f3e66736",
+    "address": "熊本県熊本市中央区サンプル町19-2-19 架空レジデンス57号",
+    "postal_code": "860-0001",
+    "phone": "090-0000-1019",
+    "country": "日本"
+  },
+  {
+    "id": 20,
+    "name": "山崎 心春（架空）",
+    "email": "yamazaki.koharu@example.test",
+    "password": "Nm26!08490847",
+    "address": "鹿児島県鹿児島市サンプル町20-2-3 架空レジデンス60号",
+    "postal_code": "890-0001",
+    "phone": "090-0000-1020",
+    "country": "日本"
+  },
+  {
+    "id": 21,
+    "name": "森 悠斗（架空）",
+    "email": "mori.yuto@example.test",
+    "password": "Nm26!9465260e",
+    "address": "岐阜県岐阜市サンプル町21-2-10 架空レジデンス63号",
+    "postal_code": "500-0001",
+    "phone": "090-0000-1021",
+    "country": "日本"
+  },
+  {
+    "id": 22,
+    "name": "池田 里奈（架空）",
+    "email": "ikeda.rina@example.test",
+    "password": "Nm26!13d468ec",
+    "address": "三重県津市サンプル町22-2-17 架空レジデンス66号",
+    "postal_code": "514-0001",
+    "phone": "090-0000-1022",
+    "country": "日本"
+  },
+  {
+    "id": 23,
+    "name": "橋本 直樹（架空）",
+    "email": "hashimoto.naoki@example.test",
+    "password": "Nm26!7d7f2372",
+    "address": "滋賀県大津市サンプル町23-2-1 架空レジデンス69号",
+    "postal_code": "520-0001",
+    "phone": "090-0000-1023",
+    "country": "日本"
+  },
+  {
+    "id": 24,
+    "name": "阿部 千尋（架空）",
+    "email": "abe.chihiro@example.test",
+    "password": "Nm26!9bd1c733",
+    "address": "奈良県奈良市サンプル町24-2-8 架空レジデンス72号",
+    "postal_code": "630-0001",
+    "phone": "090-0000-1024",
+    "country": "日本"
+  },
+  {
+    "id": 25,
+    "name": "石川 拓海（架空）",
+    "email": "ishikawa.takumi@example.test",
+    "password": "Nm26!3d33a706",
+    "address": "香川県高松市サンプル町25-2-15 架空レジデンス75号",
+    "postal_code": "760-0001",
+    "phone": "090-0000-1025",
+    "country": "日本"
+  },
+  {
+    "id": 26,
+    "name": "山下 優奈（架空）",
+    "email": "yamashita.yuna@example.test",
+    "password": "Nm26!57d8e938",
+    "address": "Sample Residence 26, Example Ave, Seattle, WA, USA",
+    "postal_code": "98101",
+    "phone": "+1-202-555-0126",
+    "country": "米国"
+  },
+  {
+    "id": 27,
+    "name": "中島 亮介（架空）",
+    "email": "nakajima.ryosuke@example.test",
+    "password": "Nm26!d1f78c85",
+    "address": "27 Example Court, Sample Road, London, UK",
+    "postal_code": "SW1A 1AA",
+    "phone": "+44-1632-960027",
+    "country": "英国"
+  },
+  {
+    "id": 28,
+    "name": "石井 真央（架空）",
+    "email": "ishii.mao@example.test",
+    "password": "Nm26!91cde383",
+    "address": "Unit 28, Sample Street, Sydney NSW, Australia",
+    "postal_code": "2000",
+    "phone": "+61-2-5550-0028",
+    "country": "オーストラリア"
+  },
+  {
+    "id": 29,
+    "name": "小川 和也（架空）",
+    "email": "ogawa.kazuya@example.test",
+    "password": "Nm26!b9f1f47a",
+    "address": "29 Example House, Sample Road, Vancouver BC, Canada",
+    "postal_code": "V6B 1A1",
+    "phone": "+1-604-555-0129",
+    "country": "カナダ"
+  },
+  {
+    "id": 30,
+    "name": "前田 紗季（架空）",
+    "email": "maeda.saki@example.test",
+    "password": "Nm26!dca704a0",
+    "address": "30 Sample Residence, Example Road, Singapore",
+    "postal_code": "018989",
+    "phone": "+65-0000-0030",
+    "country": "シンガポール"
+  },
+  {
+    "id": 31,
+    "name": "田中太郎",
+    "email": "test@test.com",
+    "password": "1234",
+    "postal_code": "101-0001",
+    "phone": "090-0000-1031",
+    "country": "日本",
+    "address": "東京都千代田区テスト町1-2-3 架空マンション101号"
+  }
+]

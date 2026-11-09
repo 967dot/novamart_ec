@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<title id="title">Home Refresh</title><desc id="desc">照明、チェア、コーヒーメーカーのある心地よいホームオフィス</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6ead9"/><stop offset=".48" stop-color="#e4c9a7"/><stop offset="1" stop-color="#9db6a7"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".22"/></filter></defs>
+<rect width="1600" height="620" fill="url(#bg)"/><circle cx="1300" cy="90" r="250" fill="#fff" opacity=".27"/><rect y="470" width="1600" height="150" fill="#8d6a50" opacity=".22"/>
+<g filter="url(#s)"><path d="M1040 230h430v36h-430z" fill="#6d4f3a"/><path d="M1080 266h28v238h-28zM1400 266h28v238h-28z" fill="#6d4f3a"/><rect x="1145" y="185" width="155" height="180" rx="26" fill="#f8f4ed"/><path d="M1175 215h96v75h-96z" fill="#334d5e"/><path d="M1185 321h76" stroke="#334d5e" stroke-width="12" stroke-linecap="round"/></g>
+<g transform="translate(915 325)" filter="url(#s)"><path d="M0-170v150" stroke="#263e45" stroke-width="18"/><path d="m-78-170 78-55 78 55z" fill="#f2b94b"/><circle cy="-15" r="16" fill="#263e45"/><path d="M0 0h-74l-35 150M0 0h74l35 150" stroke="#263e45" stroke-width="18" stroke-linecap="round"/></g>
+<g transform="translate(1370 390)" filter="url(#s)"><path d="M-86-45h172v135H-86z" fill="#385a62"/><path d="M-60-22h120v58H-60z" fill="#d8eef0"/><path d="M-64 90h128l-18 64H-46z" fill="#2d484f"/></g>
+<g transform="translate(1040 435)" filter="url(#s)"><path d="M-90-20h180v115H-90z" fill="#6a857a"/><path d="M-54 95v88M54 95v88" stroke="#40554e" stroke-width="18"/></g>
+</svg>

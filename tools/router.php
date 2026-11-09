@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/../config/local_guard.php';$path=rawurldecode(parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH)?:'/');if(preg_match('~(^|/)(config|sql|tools|docs|\.[^/]*)(/|$)|\.(md|sql|json|py|sh|bak|log|gz)$~i',$path)){http_response_code(403);exit('Forbidden');}return false;

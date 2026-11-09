@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="NovaMartの商品一覧。キーワード、カテゴリ、価格、評価、お届け日、送料で商品を絞り込めます。"
+    />
+    <title>商品一覧 | NovaMart</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css?v=20261109" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/backend.js"></script>
+    <script defer src="js/app.js?v=20261109"></script>
+    <script defer src="js/products.js"></script>
+  </head>
+  <body id="top">
+    <div data-site-header></div>
+    <main class="page-main">
+      <section class="page-hero-small">
+        <div class="container">
+          <h1>商品一覧</h1>
+          <p>
+            キーワード、カテゴリ、価格、お届け日、送料などから商品を絞り込めます。
+          </p>
+        </div>
+      </section>
+      <div class="container breadcrumbs">
+        <a href="index.html">ホーム</a><span>›</span><span>商品一覧</span>
+      </div>
+      <section class="page-section-tight catalog-section">
+        <div class="container catalog-layout">
+          <aside class="filter-panel" aria-label="商品を絞り込む">
+            <h2>絞り込み</h2>
+            <form id="filterForm">
+              <div class="filter-group filter-group-first">
+                <label class="filter-field" for="filterKeyword">
+                  <span>キーワード検索</span>
+                  <input
+                    class="filter-search-input"
+                    id="filterKeyword"
+                    name="filterKeyword"
+                    type="search"
+                    placeholder="商品名・特徴を入力"
+                  />
+                </label>
+              </div>
+              <div class="filter-group">
+                <h3>カテゴリ</h3>
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value=""
+                    checked
+                  />すべて</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value="electronics"
+                  />家電・デジタル</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value="home"
+                  />ホーム・生活</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value="fashion"
+                  />ファッション</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value="gaming"
+                  />ゲーム</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value="books"
+                  />本・学習</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="categoryFilter"
+                    value="beauty"
+                  />美容・ケア</label
+                >
+              </div>
+              <div class="filter-group">
+                <h3>価格上限：<span id="priceValue">500,000円</span></h3>
+                <input
+                  type="range"
+                  name="maxPrice"
+                  min="3000"
+                  max="500000"
+                  step="1000"
+                  value="500000"
+                />
+              </div>
+              <div class="filter-group">
+                <h3>カスタマーレビュー</h3>
+                <label
+                  ><input
+                    type="radio"
+                    name="rating"
+                    value="0"
+                    checked
+                  />指定なし</label
+                >
+                <label
+                  ><input type="radio" name="rating" value="4" />★★★★☆
+                  以上</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="rating"
+                    value="4.5"
+                  />4.5以上</label
+                >
+              </div>
+              <div class="filter-group">
+                <h3>お届け日</h3>
+                <label
+                  ><input
+                    type="radio"
+                    name="delivery"
+                    value="0"
+                    checked
+                  />指定なし</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="delivery"
+                    value="1"
+                  />最短翌日</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="delivery"
+                    value="2"
+                  />2日以内</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="delivery"
+                    value="3"
+                  />3日以内</label
+                >
+              </div>
+              <div class="filter-group">
+                <h3>送料</h3>
+                <label
+                  ><input
+                    type="radio"
+                    name="shipping"
+                    value=""
+                    checked
+                  />指定なし</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="shipping"
+                    value="free"
+                  />配送料無料</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="shipping"
+                    value="paid"
+                  />送料あり</label
+                >
+              </div>
+              <div class="filter-group">
+                <label
+                  ><input type="checkbox" name="stockOnly" />在庫ありのみ</label
+                >
+              </div>
+              <button
+                class="button button-secondary full"
+                type="button"
+                data-reset-filters
+              >
+                条件をリセット
+              </button>
+            </form>
+          </aside>
+
+          <div class="catalog-main">
+            <div class="catalog-toolbar catalog-toolbar-sort">
+              <label class="catalog-sort-field" for="catalogSort">
+                <span>並び替え</span>
+                <select id="catalogSort">
+                  <option value="recommended">おすすめ順</option>
+                  <option value="priceAsc">価格の安い順</option>
+                  <option value="priceDesc">価格の高い順</option>
+                  <option value="rating">評価の高い順</option>
+                  <option value="reviews">レビュー数順</option>
+                  <option value="newest">新着順</option>
+                </select>
+              </label>
+            </div>
+            <div class="catalog-meta">
+              <strong id="resultCount"></strong>
+              <div class="active-filters" id="activeFilters"></div>
+            </div>
+            <div class="product-grid" id="productGrid"></div>
+            <nav
+              class="pagination"
+              id="pagination"
+              aria-label="ページネーション"
+            ></nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

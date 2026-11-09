@@ -1,0 +1,5 @@
+Options -Indexes
+Require local
+<FilesMatch "^(\.|README|.*\.(sql|json|md|py|sh|log|bak|tar|gz)$)">
+    Require all denied
+</FilesMatch>

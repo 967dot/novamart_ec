@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="NovaMartで利用できるクレジットカード、デビットカード、分割・リボ、コンビニ・ATM・ネットバンキング・電子マネー払いの案内。"
+    />
+    <title>お支払い方法 | NovaMart</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css?v=20261109" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/backend.js"></script>
+    <script defer src="js/app.js?v=20261109"></script>
+  </head>
+  <body id="top" class="payment-page">
+    <div data-site-header></div>
+    <main class="page-main">
+      <section class="page-hero-small">
+        <div class="container">
+          <h1>お支払い方法</h1>
+        </div>
+      </section>
+      <div class="container breadcrumbs">
+        <a href="index.html">ホーム</a><span>›</span
+        ><a href="guide.html">ご利用ガイド</a><span>›</span
+        ><span>お支払い方法</span>
+      </div>
+      <section class="page-section">
+        <div class="container guide-document-page">
+          <div class="document-layout">
+            <nav class="document-side-nav" aria-label="お支払い方法の目次">
+              <strong>このページの内容</strong>
+              <a href="#cards">クレジット・デビットカード</a>
+              <a href="#installments">分割払い・リボ払い</a>
+              <a href="#prepayment">コンビニ・ATM等の前払い</a>
+              <a href="#restrictions">利用できない場合</a>
+            </nav>
+            <article class="content-card document-main">
+              <header class="document-header">
+                <p class="eyebrow">PAYMENT GUIDE</p>
+                <h2>お支払い方法について</h2>
+                <p>
+                  ご注文内容や商品によって、選択できる支払い方法が異なる場合があります。利用可能な方法は注文確認画面に表示されます。
+                </p>
+              </header>
+
+              <section class="document-section" id="cards">
+                <h3>クレジットカードおよびデビットカード</h3>
+                <p>
+                  NovaMartでは、主要なクレジットカード、デビットカードおよび一部のプリペイドカードを利用できます。
+                </p>
+                <ul
+                  class="payment-brand-list"
+                  aria-label="利用可能なカードブランド"
+                >
+                  <li>Visa</li>
+                  <li>Mastercard</li>
+                  <li>JCB</li>
+                  <li>American Express</li>
+                  <li>Diners Club</li>
+                </ul>
+                <div class="payment-method-grid">
+                  <div class="payment-method-card">
+                    <h4>クレジットカード</h4>
+                    <p>
+                      注文時にカード情報と請求先情報を入力します。カード会社の承認が得られない場合は、別の支払い方法を選択してください。
+                    </p>
+                  </div>
+                  <div class="payment-method-card">
+                    <h4>デビット・プリペイドカード</h4>
+                    <p>
+                      利用承認の時点で口座残高またはカード残高から代金が引き落とされる場合があります。注文変更や再承認により、一時的に複数の引き落としが表示されることがあります。
+                    </p>
+                  </div>
+                </div>
+                <div class="guide-table-wrap">
+                  <table class="guide-table">
+                    <thead>
+                      <tr>
+                        <th>項目</th>
+                        <th>ご案内</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>カードの確認</th>
+                        <td>
+                          注文確定時に、カード会社へ利用可否を照会します。本人認証が必要な場合は、カード会社の画面で認証します。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>請求先情報</th>
+                        <td>
+                          カード会社へ登録している氏名・住所と一致する情報を入力してください。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>注文変更・キャンセル</th>
+                        <td>
+                          取消・返金の反映時期はカード会社によって異なります。デビットカード等では、返金まで残高が戻らない期間が生じる場合があります。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>カード情報の更新</th>
+                        <td>
+                          有効期限切れやカード再発行時は、アカウントのお支払い方法から情報を更新します。
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <section class="document-section" id="installments">
+                <h3>分割払いまたはリボ払い</h3>
+                <p>
+                  対象となるVisa、Mastercard、JCBブランドのクレジットカードでは、注文時に分割払いまたはリボ払いを選択できます。
+                </p>
+                <div class="guide-table-wrap">
+                  <table class="guide-table">
+                    <thead>
+                      <tr>
+                        <th>支払い方法</th>
+                        <th>選択内容</th>
+                        <th>注意点</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>分割払い</th>
+                        <td>3・5・6・10・12・15・18・20・24回</td>
+                        <td>
+                          3回以上の分割払いには、カード会社所定の手数料がかかります。
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>リボ払い</th>
+                        <td>
+                          カード会社に登録した毎月の支払い設定に基づいて支払います。
+                        </td>
+                        <td>
+                          手数料率、利用限度額、毎月の支払額はカード会社へ確認してください。
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <ul class="guide-list">
+                  <li>
+                    デビットカード、プリペイドカード、American Express、Diners
+                    Clubでは、分割・リボ払いを選択できません。
+                  </li>
+                  <li>
+                    カード会社の契約内容、利用可能枠、商品または注文条件によって利用できない場合があります。
+                  </li>
+                  <li>
+                    分割・リボ払いの注文をキャンセルまたは返品した場合、返金処理と支払残高への反映はカード会社の規定に従います。
+                  </li>
+                </ul>
+                <p class="guide-note">
+                  分割払いとリボ払いは、支払総額が一括払いより増える場合があります。注文確定前に、回数、手数料および支払総額を確認してください。
+                </p>
+              </section>
+
+              <section class="document-section" id="prepayment">
+                <h3>コンビニ・ATM・ネットバンキング・電子マネー払い</h3>
+                <p>
+                  注文確定後に発行される支払い番号や案内URLを使用し、メールに記載された期限までに代金を支払う前払い方式です。入金確認後に発送準備を開始します。
+                </p>
+                <ol class="payment-flow">
+                  <li>
+                    <span>1</span><strong>注文を確定</strong>
+                    <p>注文時に「コンビニ・ATM等」を選択します。</p>
+                  </li>
+                  <li>
+                    <span>2</span><strong>番号を受け取る</strong>
+                    <p>支払い番号と手順をメールまたは注文履歴で確認します。</p>
+                  </li>
+                  <li>
+                    <span>3</span><strong>期限内に支払う</strong>
+                    <p>選択した窓口やサービスで代金を支払います。</p>
+                  </li>
+                  <li>
+                    <span>4</span><strong>発送準備を開始</strong>
+                    <p>入金確認後、商品の発送準備へ進みます。</p>
+                  </li>
+                </ol>
+                <div class="payment-method-grid">
+                  <div class="payment-method-card">
+                    <h4>コンビニ払い</h4>
+                    <p>
+                      セブン-イレブン、ローソン、ミニストップ、ファミリーマート、デイリーヤマザキ、セイコーマートなどの店頭で支払えます。
+                    </p>
+                  </div>
+                  <div class="payment-method-card">
+                    <h4>ATM払い</h4>
+                    <p>
+                      Pay-easy対応ATMで、支払い番号等を入力して支払います。金融機関によって手数料がかかる場合があります。
+                    </p>
+                  </div>
+                  <div class="payment-method-card">
+                    <h4>ネットバンキング</h4>
+                    <p>
+                      支払い案内メールの専用リンクから対応金融機関を選択し、画面の案内に従って支払います。
+                    </p>
+                  </div>
+                  <div class="payment-method-card">
+                    <h4>電子マネー</h4>
+                    <p>
+                      楽天Edy、モバイルSuica等の対応サービスを利用できます。事前登録や残高チャージが必要な場合があります。
+                    </p>
+                  </div>
+                </div>
+                <div class="payment-warning">
+                  <strong>支払い前に確認してください</strong>
+                  <p>
+                    複数の電子マネーや他の支払い方法との併用には対応していません。支払い期限を過ぎた注文は自動的にキャンセルされる場合があります。
+                  </p>
+                </div>
+              </section>
+
+              <section class="document-section" id="restrictions">
+                <h3>支払い方法を利用できない場合</h3>
+                <ul class="guide-list">
+                  <li>
+                    予約商品、デジタル商品、高額商品など、一部の商品では利用できる支払い方法が限定される場合があります。
+                  </li>
+                  <li>
+                    配送先、配送方法、注文金額または在庫状況によって、前払いを選択できない場合があります。
+                  </li>
+                  <li>
+                    カード会社や決済事業者による審査、システムメンテナンスまたは障害により、一時的に利用できない場合があります。
+                  </li>
+                  <li>
+                    利用できる支払い方法は、注文確認画面に表示された内容が優先されます。
+                  </li>
+                </ul>
+              </section>
+
+              <div class="document-footer-actions">
+                <a class="button button-secondary" href="guide.html"
+                  >ご利用ガイドへ戻る</a
+                ><a class="button button-primary" href="products.html"
+                  >商品を探す</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

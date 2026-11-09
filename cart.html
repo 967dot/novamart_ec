@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="NovaMartのショッピングカート。数量変更、削除、合計金額の確認ができます。"
+    />
+    <title>ショッピングカート | NovaMart</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css?v=20261109" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/backend.js"></script>
+    <script defer src="js/app.js?v=20261109"></script>
+    <script defer src="js/cart.js"></script>
+  </head>
+  <body id="top">
+    <div data-site-header></div>
+    <main class="page-main">
+      <section class="page-hero-small">
+        <div class="container">
+          <h1>ショッピングカート</h1>
+          <p>商品の数量と注文内容をご確認ください。</p>
+        </div>
+      </section>
+      <section class="page-section">
+        <div class="container" id="cartContent"></div>
+      </section>
+      <section class="page-section" style="background: #e8eef2">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h2>あわせておすすめ</h2>
+              <p>人気商品から選びました。</p>
+            </div>
+          </div>
+          <div class="product-grid" id="cartRecommendations"></div>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

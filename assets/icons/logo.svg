@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title">
+  <title id="title">NovaMart</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffbd2e"/><stop offset="1" stop-color="#ff7a18"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 8)">
+    <path d="M8 26 42 6l34 20v40L42 86 8 66z" fill="#0d2944"/>
+    <path d="m23 32 19-11 19 11v22L42 65 23 54z" fill="url(#g)"/>
+    <path d="M42 21v44M23 32l19 11 19-11" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="67" cy="14" r="7" fill="#30c6a1"/>
+  </g>
+  <text x="98" y="62" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="-2" fill="#ffffff">Nova</text>
+  <text x="232" y="62" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="-2" fill="#ffb01f">Mart</text>
+</svg>

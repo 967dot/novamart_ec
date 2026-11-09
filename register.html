@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+<meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="NovaMartの新規会員登録ページ。" />
+    <title>新規会員登録 | NovaMart</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css?v=20261109" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/backend.js"></script>
+    <script defer src="js/app.js?v=20261109"></script>
+    <script defer src="js/auth.js"></script>
+  </head>
+  <body id="top">
+    <div data-site-header></div>
+    <main class="page-main">
+      <div class="container">
+        <section class="auth-shell">
+          <div class="auth-form-panel">
+            <p class="eyebrow">CREATE ACCOUNT</p>
+            <h1>新規会員登録</h1>
+            <p class="muted">必要事項を入力してください。</p>
+            <form class="stack-form" id="registerForm" novalidate>
+              <label class="form-group"
+                >お名前<input name="name" autocomplete="name" required /><span
+                  class="field-error"
+                ></span></label
+              ><label class="form-group"
+                >メールアドレス<input
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required /><span class="field-error"></span></label
+              ><label class="form-group"
+                >パスワード
+                <div class="password-wrap">
+                  <input
+                    id="registerPassword"
+                    name="password"
+                    type="password"
+                    minlength="8"
+                    autocomplete="new-password"
+                    required
+                  /><button
+                    type="button"
+                    data-toggle-password="registerPassword"
+                  >
+                    表示
+                  </button>
+                </div>
+                <div class="password-strength" id="passwordStrength">
+                  <span></span><span></span><span></span><span></span
+                  ><small>8文字以上で入力してください</small>
+                </div>
+                <span class="field-error"></span></label
+              ><label class="form-group"
+                >パスワード（確認）
+                <div class="password-wrap">
+                  <input
+                    id="registerConfirm"
+                    name="confirm"
+                    type="password"
+                    minlength="8"
+                    autocomplete="new-password"
+                    required
+                  /><button
+                    type="button"
+                    data-toggle-password="registerConfirm"
+                  >
+                    表示
+                  </button>
+                </div>
+                <span class="field-error"></span></label
+              ><label class="terms-row form-group"
+                ><input name="terms" type="checkbox" required /><span
+                  ><a href="terms.html" style="color: #176a99">利用規約</a>と<a
+                    href="privacy.html"
+                    style="color: #176a99"
+                    >プライバシーポリシー</a
+                  >に同意します。</span
+                ><span class="field-error"></span></label
+              ><button class="button button-primary full" type="submit">
+                会員登録する
+              </button>
+            </form>
+            <p style="text-align: center; margin-top: 22px">
+              すでにアカウントをお持ちの方は
+              <a href="login.html" style="color: #176a99; font-weight: 800"
+                >ログイン</a
+              >
+            </p>
+          </div>
+          <div class="auth-visual">
+            <p class="eyebrow" style="color: #9de8dc">MEMBER BENEFITS</p>
+            <h2>見つけた商品を、<br />いつでも手元に。</h2>
+            <p>
+              お気に入り保存、注文履歴、スムーズな購入手続きが利用できます。
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

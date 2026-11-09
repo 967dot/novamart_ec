@@ -1,0 +1,1328 @@
+[
+  {
+    "id": 2001,
+    "userId": 1,
+    "orderNumber": "NM-2610-0001-1",
+    "total": 9900,
+    "status": "発送準備中",
+    "createdAt": "2026-10-09 11:15:00",
+    "items": [
+      {
+        "id": "p021",
+        "name": "Web Design Systems",
+        "quantity": 3,
+        "unitPrice": 3300,
+        "lineTotal": 9900
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2002,
+    "userId": 1,
+    "orderNumber": "NM-2608-0001-2",
+    "total": 24760,
+    "status": "配送済み",
+    "createdAt": "2026-08-14 12:15:00",
+    "items": [
+      {
+        "id": "p035",
+        "name": "PocketDrive 1TB",
+        "quantity": 1,
+        "unitPrice": 16800,
+        "lineTotal": 16800
+      },
+      {
+        "id": "p054",
+        "name": "Essential T-Shirt",
+        "quantity": 2,
+        "unitPrice": 3980,
+        "lineTotal": 7960
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2004,
+    "userId": 2,
+    "orderNumber": "NM-2608-0002-1",
+    "total": 92760,
+    "status": "配送済み",
+    "createdAt": "2026-08-12 12:15:00",
+    "items": [
+      {
+        "id": "p029",
+        "name": "PocketPhone X",
+        "quantity": 1,
+        "unitPrice": 79800,
+        "lineTotal": 79800
+      },
+      {
+        "id": "p048",
+        "name": "Green Pot Set",
+        "quantity": 2,
+        "unitPrice": 6480,
+        "lineTotal": 12960
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2005,
+    "userId": 2,
+    "orderNumber": "NM-2609-0002-2",
+    "total": 45600,
+    "status": "発送済み",
+    "createdAt": "2026-09-17 13:15:00",
+    "items": [
+      {
+        "id": "p042",
+        "name": "FloorVac Lite",
+        "quantity": 2,
+        "unitPrice": 22800,
+        "lineTotal": 45600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2006,
+    "userId": 2,
+    "orderNumber": "NM-2610-0002-3",
+    "total": 32700,
+    "status": "発送準備中",
+    "createdAt": "2026-10-22 14:15:00",
+    "items": [
+      {
+        "id": "p055",
+        "name": "Straight Denim",
+        "quantity": 3,
+        "unitPrice": 9800,
+        "lineTotal": 29400
+      },
+      {
+        "id": "p074",
+        "name": "JavaScript Essentials",
+        "quantity": 1,
+        "unitPrice": 3300,
+        "lineTotal": 3300
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2007,
+    "userId": 3,
+    "orderNumber": "NM-2609-0003-1",
+    "total": 319600,
+    "status": "発送済み",
+    "createdAt": "2026-09-15 13:15:00",
+    "items": [
+      {
+        "id": "p036",
+        "name": "SkyView Mini",
+        "quantity": 2,
+        "unitPrice": 159800,
+        "lineTotal": 319600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2010,
+    "userId": 4,
+    "orderNumber": "NM-2610-0004-1",
+    "total": 138200,
+    "status": "発送準備中",
+    "createdAt": "2026-10-18 14:15:00",
+    "items": [
+      {
+        "id": "p043",
+        "name": "RiceCooker",
+        "quantity": 3,
+        "unitPrice": 32800,
+        "lineTotal": 98400
+      },
+      {
+        "id": "p062",
+        "name": "PocketPlay",
+        "quantity": 1,
+        "unitPrice": 39800,
+        "lineTotal": 39800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2011,
+    "userId": 4,
+    "orderNumber": "NM-2608-0004-2",
+    "total": 16800,
+    "status": "配送済み",
+    "createdAt": "2026-08-23 15:15:00",
+    "items": [
+      {
+        "id": "p056",
+        "name": "Urban Boots",
+        "quantity": 1,
+        "unitPrice": 16800,
+        "lineTotal": 16800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2013,
+    "userId": 5,
+    "orderNumber": "NM-2608-0005-1",
+    "total": 6980,
+    "status": "配送済み",
+    "createdAt": "2026-08-21 15:15:00",
+    "items": [
+      {
+        "id": "p050",
+        "name": "Classic Sunglasses",
+        "quantity": 1,
+        "unitPrice": 6980,
+        "lineTotal": 6980
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2014,
+    "userId": 5,
+    "orderNumber": "NM-2609-0005-2",
+    "total": 104820,
+    "status": "発送済み",
+    "createdAt": "2026-09-26 16:15:00",
+    "items": [
+      {
+        "id": "p063",
+        "name": "Vision VR Headset",
+        "quantity": 2,
+        "unitPrice": 46800,
+        "lineTotal": 93600
+      },
+      {
+        "id": "p082",
+        "name": "UX Research Handbook",
+        "quantity": 3,
+        "unitPrice": 3740,
+        "lineTotal": 11220
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2015,
+    "userId": 5,
+    "orderNumber": "NM-2610-0005-3",
+    "total": 8910,
+    "status": "発送準備中",
+    "createdAt": "2026-10-04 17:15:00",
+    "items": [
+      {
+        "id": "p076",
+        "name": "Linux Command Guide",
+        "quantity": 3,
+        "unitPrice": 2970,
+        "lineTotal": 8910
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2016,
+    "userId": 6,
+    "orderNumber": "NM-2609-0006-1",
+    "total": 19870,
+    "status": "発送済み",
+    "createdAt": "2026-09-24 16:15:00",
+    "items": [
+      {
+        "id": "p057",
+        "name": "Knit Scarf",
+        "quantity": 2,
+        "unitPrice": 5480,
+        "lineTotal": 10960
+      },
+      {
+        "id": "p076",
+        "name": "Linux Command Guide",
+        "quantity": 3,
+        "unitPrice": 2970,
+        "lineTotal": 8910
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2019,
+    "userId": 7,
+    "orderNumber": "NM-2610-0007-1",
+    "total": 56400,
+    "status": "発送準備中",
+    "createdAt": "2026-10-27 17:15:00",
+    "items": [
+      {
+        "id": "p064",
+        "name": "Strike Arcade Stick",
+        "quantity": 3,
+        "unitPrice": 18800,
+        "lineTotal": 56400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2020,
+    "userId": 7,
+    "orderNumber": "NM-2608-0007-2",
+    "total": 29120,
+    "status": "配送済み",
+    "createdAt": "2026-08-05 18:15:00",
+    "items": [
+      {
+        "id": "p077",
+        "name": "Networking Fundamentals",
+        "quantity": 1,
+        "unitPrice": 3520,
+        "lineTotal": 3520
+      },
+      {
+        "id": "p096",
+        "name": "SilkTouch Hair Iron",
+        "quantity": 2,
+        "unitPrice": 12800,
+        "lineTotal": 25600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2022,
+    "userId": 8,
+    "orderNumber": "NM-2608-0008-1",
+    "total": 12700,
+    "status": "配送済み",
+    "createdAt": "2026-08-03 18:15:00",
+    "items": [
+      {
+        "id": "p071",
+        "name": "TwinPad Controller",
+        "quantity": 1,
+        "unitPrice": 6980,
+        "lineTotal": 6980
+      },
+      {
+        "id": "p090",
+        "name": "写真構図",
+        "quantity": 2,
+        "unitPrice": 2860,
+        "lineTotal": 5720
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2023,
+    "userId": 8,
+    "orderNumber": "NM-2609-0008-2",
+    "total": 6160,
+    "status": "発送済み",
+    "createdAt": "2026-09-08 09:15:00",
+    "items": [
+      {
+        "id": "p084",
+        "name": "Color & Interface",
+        "quantity": 2,
+        "unitPrice": 3080,
+        "lineTotal": 6160
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2024,
+    "userId": 8,
+    "orderNumber": "NM-2610-0008-3",
+    "total": 53740,
+    "status": "発送準備中",
+    "createdAt": "2026-10-13 10:15:00",
+    "items": [
+      {
+        "id": "p099",
+        "name": "Mini Nail Dryer",
+        "quantity": 3,
+        "unitPrice": 5980,
+        "lineTotal": 17940
+      },
+      {
+        "id": "p012",
+        "name": "Arc Chair",
+        "quantity": 1,
+        "unitPrice": 35800,
+        "lineTotal": 35800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2025,
+    "userId": 9,
+    "orderNumber": "NM-2609-0009-1",
+    "total": 5720,
+    "status": "発送済み",
+    "createdAt": "2026-09-06 09:15:00",
+    "items": [
+      {
+        "id": "p078",
+        "name": "Git & GitHub Workflow",
+        "quantity": 2,
+        "unitPrice": 2860,
+        "lineTotal": 5720
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2028,
+    "userId": 10,
+    "orderNumber": "NM-2610-0010-1",
+    "total": 17210,
+    "status": "発送準備中",
+    "createdAt": "2026-10-09 10:15:00",
+    "items": [
+      {
+        "id": "p085",
+        "name": "Responsive Web Design",
+        "quantity": 3,
+        "unitPrice": 3410,
+        "lineTotal": 10230
+      },
+      {
+        "id": "p106",
+        "name": "Beauty Storage Case",
+        "quantity": 1,
+        "unitPrice": 6980,
+        "lineTotal": 6980
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2029,
+    "userId": 10,
+    "orderNumber": "NM-2608-0010-2",
+    "total": 3800,
+    "status": "配送済み",
+    "createdAt": "2026-08-14 11:15:00",
+    "items": [
+      {
+        "id": "p100",
+        "name": "Sonic Toothbrush",
+        "quantity": 1,
+        "unitPrice": 3800,
+        "lineTotal": 3800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2031,
+    "userId": 11,
+    "orderNumber": "NM-2608-0011-1",
+    "total": 3300,
+    "status": "配送済み",
+    "createdAt": "2026-08-12 11:15:00",
+    "items": [
+      {
+        "id": "p092",
+        "name": "パーソナルファイナンスの基本",
+        "quantity": 1,
+        "unitPrice": 2750,
+        "lineTotal": 2750
+      }
+    ],
+    "shipping": 550
+  },
+  {
+    "id": 2032,
+    "userId": 11,
+    "orderNumber": "NM-2609-0011-2",
+    "total": 319940,
+    "status": "発送済み",
+    "createdAt": "2026-09-17 12:15:00",
+    "items": [
+      {
+        "id": "p001",
+        "name": "AeroBook Pro 14",
+        "quantity": 2,
+        "unitPrice": 148000,
+        "lineTotal": 296000
+      },
+      {
+        "id": "p020",
+        "name": "Cloud Gaming Mouse",
+        "quantity": 3,
+        "unitPrice": 7980,
+        "lineTotal": 23940
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2033,
+    "userId": 11,
+    "orderNumber": "NM-2610-0011-3",
+    "total": 35400,
+    "status": "発送準備中",
+    "createdAt": "2026-10-22 13:15:00",
+    "items": [
+      {
+        "id": "p014",
+        "name": "ClearSkin Sonic",
+        "quantity": 3,
+        "unitPrice": 11800,
+        "lineTotal": 35400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2034,
+    "userId": 12,
+    "orderNumber": "NM-2609-0012-1",
+    "total": 63000,
+    "status": "発送済み",
+    "createdAt": "2026-09-15 12:15:00",
+    "items": [
+      {
+        "id": "p101",
+        "name": "BodyCare Massage Gun",
+        "quantity": 2,
+        "unitPrice": 13800,
+        "lineTotal": 27600
+      },
+      {
+        "id": "p014",
+        "name": "ClearSkin Sonic",
+        "quantity": 3,
+        "unitPrice": 11800,
+        "lineTotal": 35400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2037,
+    "userId": 13,
+    "orderNumber": "NM-2610-0013-1",
+    "total": 104400,
+    "status": "発送準備中",
+    "createdAt": "2026-10-18 13:15:00",
+    "items": [
+      {
+        "id": "p002",
+        "name": "NovaBuds Max",
+        "quantity": 3,
+        "unitPrice": 34800,
+        "lineTotal": 104400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2038,
+    "userId": 13,
+    "orderNumber": "NM-2608-0013-2",
+    "total": 46800,
+    "status": "配送済み",
+    "createdAt": "2026-08-23 14:15:00",
+    "items": [
+      {
+        "id": "p015",
+        "name": "Urban Runner One",
+        "quantity": 1,
+        "unitPrice": 13200,
+        "lineTotal": 13200
+      },
+      {
+        "id": "p035",
+        "name": "PocketDrive 1TB",
+        "quantity": 2,
+        "unitPrice": 16800,
+        "lineTotal": 33600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2040,
+    "userId": 14,
+    "orderNumber": "NM-2608-0014-1",
+    "total": 183400,
+    "status": "配送済み",
+    "createdAt": "2026-08-21 14:15:00",
+    "items": [
+      {
+        "id": "p009",
+        "name": "BrewMaster One",
+        "quantity": 1,
+        "unitPrice": 23800,
+        "lineTotal": 23800
+      },
+      {
+        "id": "p029",
+        "name": "PocketPhone X",
+        "quantity": 2,
+        "unitPrice": 79800,
+        "lineTotal": 159600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2041,
+    "userId": 14,
+    "orderNumber": "NM-2609-0014-2",
+    "total": 7040,
+    "status": "発送済み",
+    "createdAt": "2026-09-26 15:15:00",
+    "items": [
+      {
+        "id": "p022",
+        "name": "Modern PHP Handbook",
+        "quantity": 2,
+        "unitPrice": 3520,
+        "lineTotal": 7040
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2042,
+    "userId": 14,
+    "orderNumber": "NM-2610-0014-3",
+    "total": 489200,
+    "status": "発送準備中",
+    "createdAt": "2026-10-04 16:15:00",
+    "items": [
+      {
+        "id": "p036",
+        "name": "SkyView Mini",
+        "quantity": 3,
+        "unitPrice": 159800,
+        "lineTotal": 479400
+      },
+      {
+        "id": "p055",
+        "name": "Straight Denim",
+        "quantity": 1,
+        "unitPrice": 9800,
+        "lineTotal": 9800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2043,
+    "userId": 15,
+    "orderNumber": "NM-2609-0015-1",
+    "total": 17960,
+    "status": "発送済み",
+    "createdAt": "2026-09-24 15:15:00",
+    "items": [
+      {
+        "id": "p016",
+        "name": "NovaPad Controller",
+        "quantity": 2,
+        "unitPrice": 8980,
+        "lineTotal": 17960
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2046,
+    "userId": 16,
+    "orderNumber": "NM-2610-0016-1",
+    "total": 41380,
+    "status": "発送準備中",
+    "createdAt": "2026-10-27 16:15:00",
+    "items": [
+      {
+        "id": "p023",
+        "name": "Nordic Table Recipes",
+        "quantity": 3,
+        "unitPrice": 2860,
+        "lineTotal": 8580
+      },
+      {
+        "id": "p043",
+        "name": "RiceCooker",
+        "quantity": 1,
+        "unitPrice": 32800,
+        "lineTotal": 32800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2047,
+    "userId": 16,
+    "orderNumber": "NM-2608-0016-2",
+    "total": 6980,
+    "status": "配送済み",
+    "createdAt": "2026-08-05 17:15:00",
+    "items": [
+      {
+        "id": "p037",
+        "name": "Daily Kettle",
+        "quantity": 1,
+        "unitPrice": 6980,
+        "lineTotal": 6980
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2049,
+    "userId": 17,
+    "orderNumber": "NM-2608-0017-1",
+    "total": 19800,
+    "status": "配送済み",
+    "createdAt": "2026-08-03 17:15:00",
+    "items": [
+      {
+        "id": "p031",
+        "name": "PaperJet Home",
+        "quantity": 1,
+        "unitPrice": 19800,
+        "lineTotal": 19800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2050,
+    "userId": 17,
+    "orderNumber": "NM-2609-0017-2",
+    "total": 168000,
+    "status": "発送済み",
+    "createdAt": "2026-09-08 18:15:00",
+    "items": [
+      {
+        "id": "p044",
+        "name": "Oak Side Table",
+        "quantity": 2,
+        "unitPrice": 13800,
+        "lineTotal": 27600
+      },
+      {
+        "id": "p063",
+        "name": "Vision VR Headset",
+        "quantity": 3,
+        "unitPrice": 46800,
+        "lineTotal": 140400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2051,
+    "userId": 17,
+    "orderNumber": "NM-2610-0017-3",
+    "total": 16440,
+    "status": "発送準備中",
+    "createdAt": "2026-10-13 09:15:00",
+    "items": [
+      {
+        "id": "p057",
+        "name": "Knit Scarf",
+        "quantity": 3,
+        "unitPrice": 5480,
+        "lineTotal": 16440
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2052,
+    "userId": 18,
+    "orderNumber": "NM-2609-0018-1",
+    "total": 31400,
+    "status": "発送済み",
+    "createdAt": "2026-09-06 18:15:00",
+    "items": [
+      {
+        "id": "p038",
+        "name": "ToastMate 2",
+        "quantity": 2,
+        "unitPrice": 7480,
+        "lineTotal": 14960
+      },
+      {
+        "id": "p057",
+        "name": "Knit Scarf",
+        "quantity": 3,
+        "unitPrice": 5480,
+        "lineTotal": 16440
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2055,
+    "userId": 19,
+    "orderNumber": "NM-2610-0019-1",
+    "total": 35400,
+    "status": "発送準備中",
+    "createdAt": "2026-10-09 09:15:00",
+    "items": [
+      {
+        "id": "p045",
+        "name": "SoftWeave Rug",
+        "quantity": 3,
+        "unitPrice": 11800,
+        "lineTotal": 35400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2056,
+    "userId": 19,
+    "orderNumber": "NM-2608-0019-2",
+    "total": 12020,
+    "status": "配送済み",
+    "createdAt": "2026-08-14 10:15:00",
+    "items": [
+      {
+        "id": "p058",
+        "name": "Minimal Belt",
+        "quantity": 1,
+        "unitPrice": 4980,
+        "lineTotal": 4980
+      },
+      {
+        "id": "p077",
+        "name": "Networking Fundamentals",
+        "quantity": 2,
+        "unitPrice": 3520,
+        "lineTotal": 7040
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2058,
+    "userId": 20,
+    "orderNumber": "NM-2608-0020-1",
+    "total": 21440,
+    "status": "配送済み",
+    "createdAt": "2026-08-12 10:15:00",
+    "items": [
+      {
+        "id": "p052",
+        "name": "Canvas Shoulder Bag",
+        "quantity": 1,
+        "unitPrice": 7480,
+        "lineTotal": 7480
+      },
+      {
+        "id": "p071",
+        "name": "TwinPad Controller",
+        "quantity": 2,
+        "unitPrice": 6980,
+        "lineTotal": 13960
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2059,
+    "userId": 20,
+    "orderNumber": "NM-2609-0020-2",
+    "total": 65600,
+    "status": "発送済み",
+    "createdAt": "2026-09-17 11:15:00",
+    "items": [
+      {
+        "id": "p065",
+        "name": "Racer Gaming Chair",
+        "quantity": 2,
+        "unitPrice": 32800,
+        "lineTotal": 65600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2060,
+    "userId": 20,
+    "orderNumber": "NM-2610-0020-3",
+    "total": 14560,
+    "status": "発送準備中",
+    "createdAt": "2026-10-22 12:15:00",
+    "items": [
+      {
+        "id": "p078",
+        "name": "Git & GitHub Workflow",
+        "quantity": 3,
+        "unitPrice": 2860,
+        "lineTotal": 8580
+      },
+      {
+        "id": "p099",
+        "name": "Mini Nail Dryer",
+        "quantity": 1,
+        "unitPrice": 5980,
+        "lineTotal": 5980
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2061,
+    "userId": 21,
+    "orderNumber": "NM-2609-0021-1",
+    "total": 25600,
+    "status": "発送済み",
+    "createdAt": "2026-09-15 11:15:00",
+    "items": [
+      {
+        "id": "p059",
+        "name": "Daily Dress",
+        "quantity": 2,
+        "unitPrice": 12800,
+        "lineTotal": 25600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2064,
+    "userId": 22,
+    "orderNumber": "NM-2610-0022-1",
+    "total": 152810,
+    "status": "発送準備中",
+    "createdAt": "2026-10-18 12:15:00",
+    "items": [
+      {
+        "id": "p066",
+        "name": "Glow Gaming Monitor",
+        "quantity": 3,
+        "unitPrice": 49800,
+        "lineTotal": 149400
+      },
+      {
+        "id": "p085",
+        "name": "Responsive Web Design",
+        "quantity": 1,
+        "unitPrice": 3410,
+        "lineTotal": 3410
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2065,
+    "userId": 22,
+    "orderNumber": "NM-2608-0022-2",
+    "total": 3630,
+    "status": "配送済み",
+    "createdAt": "2026-08-23 13:15:00",
+    "items": [
+      {
+        "id": "p079",
+        "name": "SQL スターターガイド",
+        "quantity": 1,
+        "unitPrice": 3080,
+        "lineTotal": 3080
+      }
+    ],
+    "shipping": 550
+  },
+  {
+    "id": 2067,
+    "userId": 23,
+    "orderNumber": "NM-2608-0023-1",
+    "total": 3410,
+    "status": "配送済み",
+    "createdAt": "2026-08-21 13:15:00",
+    "items": [
+      {
+        "id": "p073",
+        "name": "HTML & CSS Basics",
+        "quantity": 1,
+        "unitPrice": 2860,
+        "lineTotal": 2860
+      }
+    ],
+    "shipping": 550
+  },
+  {
+    "id": 2068,
+    "userId": 23,
+    "orderNumber": "NM-2609-0023-2",
+    "total": 450600,
+    "status": "発送済み",
+    "createdAt": "2026-09-26 14:15:00",
+    "items": [
+      {
+        "id": "p086",
+        "name": "Accessibility First",
+        "quantity": 2,
+        "unitPrice": 3300,
+        "lineTotal": 6600
+      },
+      {
+        "id": "p001",
+        "name": "AeroBook Pro 14",
+        "quantity": 3,
+        "unitPrice": 148000,
+        "lineTotal": 444000
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2069,
+    "userId": 23,
+    "orderNumber": "NM-2610-0023-3",
+    "total": 41400,
+    "status": "発送準備中",
+    "createdAt": "2026-10-04 15:15:00",
+    "items": [
+      {
+        "id": "p101",
+        "name": "BodyCare Massage Gun",
+        "quantity": 3,
+        "unitPrice": 13800,
+        "lineTotal": 41400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2070,
+    "userId": 24,
+    "orderNumber": "NM-2609-0024-1",
+    "total": 48440,
+    "status": "発送済み",
+    "createdAt": "2026-09-24 14:15:00",
+    "items": [
+      {
+        "id": "p080",
+        "name": "MySQL 実践ガイド",
+        "quantity": 2,
+        "unitPrice": 3520,
+        "lineTotal": 7040
+      },
+      {
+        "id": "p101",
+        "name": "BodyCare Massage Gun",
+        "quantity": 3,
+        "unitPrice": 13800,
+        "lineTotal": 41400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2073,
+    "userId": 25,
+    "orderNumber": "NM-2610-0025-1",
+    "total": 8910,
+    "status": "発送準備中",
+    "createdAt": "2026-10-27 15:15:00",
+    "items": [
+      {
+        "id": "p087",
+        "name": "Figma UI Workbook",
+        "quantity": 3,
+        "unitPrice": 2970,
+        "lineTotal": 8910
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2074,
+    "userId": 25,
+    "orderNumber": "NM-2608-0025-2",
+    "total": 32880,
+    "status": "配送済み",
+    "createdAt": "2026-08-05 16:15:00",
+    "items": [
+      {
+        "id": "p102",
+        "name": "Aroma Diffuser Mini",
+        "quantity": 1,
+        "unitPrice": 6480,
+        "lineTotal": 6480
+      },
+      {
+        "id": "p015",
+        "name": "Urban Runner One",
+        "quantity": 2,
+        "unitPrice": 13200,
+        "lineTotal": 26400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2076,
+    "userId": 26,
+    "orderNumber": "NM-2608-0026-1",
+    "total": 51340,
+    "status": "配送済み",
+    "createdAt": "2026-08-03 16:15:00",
+    "items": [
+      {
+        "id": "p094",
+        "name": "セキュリティ基礎入門",
+        "quantity": 1,
+        "unitPrice": 3740,
+        "lineTotal": 3740
+      },
+      {
+        "id": "p009",
+        "name": "BrewMaster One",
+        "quantity": 2,
+        "unitPrice": 23800,
+        "lineTotal": 47600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2077,
+    "userId": 26,
+    "orderNumber": "NM-2609-0026-2",
+    "total": 59600,
+    "status": "発送済み",
+    "createdAt": "2026-09-08 17:15:00",
+    "items": [
+      {
+        "id": "p003",
+        "name": "Pulse Watch S",
+        "quantity": 2,
+        "unitPrice": 29800,
+        "lineTotal": 59600
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2078,
+    "userId": 26,
+    "orderNumber": "NM-2610-0026-3",
+    "total": 186740,
+    "status": "発送準備中",
+    "createdAt": "2026-10-13 18:15:00",
+    "items": [
+      {
+        "id": "p016",
+        "name": "NovaPad Controller",
+        "quantity": 3,
+        "unitPrice": 8980,
+        "lineTotal": 26940
+      },
+      {
+        "id": "p036",
+        "name": "SkyView Mini",
+        "quantity": 1,
+        "unitPrice": 159800,
+        "lineTotal": 159800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2079,
+    "userId": 27,
+    "orderNumber": "NM-2609-0027-1",
+    "total": 11960,
+    "status": "発送済み",
+    "createdAt": "2026-09-06 17:15:00",
+    "items": [
+      {
+        "id": "p103",
+        "name": "SkinCare Roller",
+        "quantity": 2,
+        "unitPrice": 5980,
+        "lineTotal": 11960
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2082,
+    "userId": 28,
+    "orderNumber": "NM-2610-0028-1",
+    "total": 41260,
+    "status": "発送準備中",
+    "createdAt": "2026-10-09 18:15:00",
+    "items": [
+      {
+        "id": "p004",
+        "name": "Lumina Desk Lamp",
+        "quantity": 3,
+        "unitPrice": 12800,
+        "lineTotal": 38400
+      },
+      {
+        "id": "p023",
+        "name": "Nordic Table Recipes",
+        "quantity": 1,
+        "unitPrice": 2860,
+        "lineTotal": 2860
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2083,
+    "userId": 28,
+    "orderNumber": "NM-2608-0028-2",
+    "total": 19800,
+    "status": "配送済み",
+    "createdAt": "2026-08-14 09:15:00",
+    "items": [
+      {
+        "id": "p017",
+        "name": "Travel Shell Jacket",
+        "quantity": 1,
+        "unitPrice": 19800,
+        "lineTotal": 19800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2085,
+    "userId": 29,
+    "orderNumber": "NM-2608-0029-1",
+    "total": 49800,
+    "status": "配送済み",
+    "createdAt": "2026-08-12 09:15:00",
+    "items": [
+      {
+        "id": "p011",
+        "name": "CleanBot Air",
+        "quantity": 1,
+        "unitPrice": 49800,
+        "lineTotal": 49800
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2086,
+    "userId": 29,
+    "orderNumber": "NM-2609-0029-2",
+    "total": 51000,
+    "status": "発送済み",
+    "createdAt": "2026-09-17 10:15:00",
+    "items": [
+      {
+        "id": "p024",
+        "name": "AirCare Dryer",
+        "quantity": 2,
+        "unitPrice": 4800,
+        "lineTotal": 9600
+      },
+      {
+        "id": "p044",
+        "name": "Oak Side Table",
+        "quantity": 3,
+        "unitPrice": 13800,
+        "lineTotal": 41400
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2087,
+    "userId": 29,
+    "orderNumber": "NM-2610-0029-3",
+    "total": 22440,
+    "status": "発送準備中",
+    "createdAt": "2026-10-22 11:15:00",
+    "items": [
+      {
+        "id": "p038",
+        "name": "ToastMate 2",
+        "quantity": 3,
+        "unitPrice": 7480,
+        "lineTotal": 22440
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 2088,
+    "userId": 30,
+    "orderNumber": "NM-2609-0030-1",
+    "total": 44040,
+    "status": "発送済み",
+    "createdAt": "2026-09-15 10:15:00",
+    "items": [
+      {
+        "id": "p018",
+        "name": "Metro Tote Pro",
+        "quantity": 2,
+        "unitPrice": 10800,
+        "lineTotal": 21600
+      },
+      {
+        "id": "p038",
+        "name": "ToastMate 2",
+        "quantity": 3,
+        "unitPrice": 7480,
+        "lineTotal": 22440
+      }
+    ],
+    "shipping": 0
+  },
+  {
+    "id": 3001,
+    "orderNumber": "NM-DEMO-TARO-1",
+    "userId": 31,
+    "total": 148000,
+    "status": "配送済み",
+    "createdAt": "2026-10-18 10:00:00",
+    "shipping": 0,
+    "items": [
+      {
+        "id": "p001",
+        "name": "AeroBook Pro 14",
+        "unitPrice": 148000,
+        "quantity": 1,
+        "lineTotal": 148000
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "orderNumber": "NM-DEMO-TARO-2",
+    "userId": 31,
+    "total": 25600,
+    "status": "発送準備中",
+    "createdAt": "2026-10-25 14:30:00",
+    "shipping": 0,
+    "items": [
+      {
+        "id": "p004",
+        "name": "Lumina Desk Lamp",
+        "unitPrice": 12800,
+        "quantity": 2,
+        "lineTotal": 25600
+      }
+    ]
+  }
+]
