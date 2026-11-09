@@ -22,33 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     total = subtotal + shipping,
     user = getUser();
   qs("#checkoutContent").innerHTML =
-    `<div class="checkout-layout"><form class="checkout-form" id="checkoutForm"><section class="checkout-section"><div class="step-number">1</div><div><h2>お届け先</h2><div class="form-grid two"><label class="form-group">お名前<input name="name" value="${escapeHTML(user?.name || "")}" required><span class="field-error"></span></label><label class="form-group">電話番号<input name="phone" inputmode="tel" placeholder="090-0000-0000" required><span class="field-error"></span></label><label class="form-group">郵便番号<input name="postal" placeholder="100-0001" required><span class="field-error"></span></label><label class="form-group">国・地域<input name="country" value="日本" required><span class="field-error"></span></label><label class="form-group full-span">配送先住所<input name="address" required><span class="field-error"></span></label></div></div></section><section class="checkout-section"><div class="step-number">2</div><div><h2>配送方法</h2><label class="choice-card"><input type="radio" name="shipping" value="standard" checked><span><strong>通常配送（送料は注文内容を参照）</strong><small>最短翌日のお届け</small></span></label><label class="choice-card">
-  <input type="radio" name="shipping" value="time">
-  <span>
-    <strong>時間帯指定</strong>
-    <small>お届け日と時間帯を指定できます</small>
-  </span>
-</label>
-
-<div class="delivery-schedule" id="deliverySchedule" hidden>
-  <label class="form-group">
-    お届け日
-    <input type="date" name="deliveryDate">
-  </label>
-
-  <label class="form-group">
-    お届け時間帯
-    <select name="deliveryTime">
-      <option value="">時間帯を選択してください</option>
-      <option value="8:00-12:00">8:00～12:00</option>
-      <option value="12:00-14:00">12:00～14:00</option>
-      <option value="14:00-16:00">14:00～16:00</option>
-      <option value="16:00-18:00">16:00～18:00</option>
-      <option value="18:00-20:00">18:00～20:00</option>
-      <option value="19:00-21:00">19:00～21:00</option>
-    </select>
-  </label>
-</div></div></section><section class="checkout-section">
+    `<div class="checkout-layout"><form class="checkout-form" id="checkoutForm"><section class="checkout-section"><div class="step-number">1</div><div><h2>お届け先</h2><div class="form-grid two"><label class="form-group">お名前<input name="name" value="${escapeHTML(user?.name || "")}" required><span class="field-error"></span></label><label class="form-group">電話番号<input name="phone" inputmode="tel" placeholder="090-0000-0000" required><span class="field-error"></span></label><label class="form-group">郵便番号<input name="postal" placeholder="100-0001" required><span class="field-error"></span></label><label class="form-group">国・地域<input name="country" value="日本" required><span class="field-error"></span></label><label class="form-group full-span">配送先住所<input name="address" required><span class="field-error"></span></label></div></div></section><section class="checkout-section"><div class="step-number">2</div><div><h2>配送方法</h2><label class="choice-card"><input type="radio" name="shipping" value="standard" checked><span><strong>通常配送（送料は注文内容を参照）</strong><small>最短翌日のお届け</small></span></label></div></section><section class="checkout-section">
   <div class="step-number">3</div>
 
   <div>
@@ -65,43 +39,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     checkoutForm.elements.address.value = profile.address === '未登録' ? '' : profile.address;
   } catch (_) { /* Users can still fill the fictional address form manually. */ }
 
-  /* 配送日時指定欄の表示・非表示 */
-
-  const deliverySchedule = qs("#deliverySchedule");
-  const deliveryDate = checkoutForm.elements.deliveryDate;
-  const deliveryTime = checkoutForm.elements.deliveryTime;
-  const shippingRadios = checkoutForm.querySelectorAll(
-    'input[name="shipping"]',
-  );
-
-  /* 選択可能日は明日以降 */
-  const earliestDeliveryDate = new Date();
-  earliestDeliveryDate.setDate(earliestDeliveryDate.getDate() + 1);
-
-  const year = earliestDeliveryDate.getFullYear();
-  const month = String(earliestDeliveryDate.getMonth() + 1).padStart(2, "0");
-  const day = String(earliestDeliveryDate.getDate()).padStart(2, "0");
-
-  deliveryDate.min = `${year}-${month}-${day}`;
-
-  const updateDeliverySchedule = () => {
-    const isTimeDelivery = checkoutForm.elements.shipping.value === "time";
-
-    deliverySchedule.hidden = !isTimeDelivery;
-    deliveryDate.required = isTimeDelivery;
-    deliveryTime.required = isTimeDelivery;
-
-    if (!isTimeDelivery) {
-      deliveryDate.value = "";
-      deliveryTime.value = "";
-    }
-  };
-
-  shippingRadios.forEach((radio) => {
-    radio.addEventListener("change", updateDeliverySchedule);
-  });
-
-  updateDeliverySchedule();
   checkoutForm.addEventListener('submit', async e => {
     e.preventDefault(); if (!checkoutForm.reportValidity()) return;
     const button = checkoutForm.querySelector('button[type="submit"]'); button.disabled = true;

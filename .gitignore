@@ -7,3 +7,6 @@
 # ローカル専用の設定・ログ
 .env
 *.log
+
+# DBパスワードなどのローカル設定
+config/config.local.php

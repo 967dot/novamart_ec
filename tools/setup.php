@@ -1,7 +1,9 @@
 <?php
 declare(strict_types=1);
 if(PHP_SAPI!=='cli'){http_response_code(404);exit;}
-$db='novamart_chatgpt_secure';$user='nm_ec_secure';
+$config=(require __DIR__.'/../config/config.php')['db'];
+$db=$config['name'];$user=$config['user'];$dbPass=$config['pass'];
+if($dbPass===''||$dbPass==='change-me'){fwrite(STDERR,"Set the DB password in config/config.local.php (copy config.local.example.php) or NOVAMART_DB_PASS.\n");exit(1);}
 $socket=getenv('NOVAMART_DB_SOCKET');
 $dsn=$socket?'mysql:unix_socket='.$socket.';charset=utf8mb4':'mysql:host=127.0.0.1;port=8889;charset=utf8mb4';
 $p=new PDO($dsn,getenv('NOVAMART_SETUP_DB_USER')?:'root',getenv('NOVAMART_SETUP_DB_PASS')?:'root',[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
@@ -25,7 +27,7 @@ $os=$p->prepare('INSERT INTO orders(id,order_number,user_id,total,status,created
 foreach($orders as $o){$os->execute([$o['id'],$o['orderNumber'],$o['userId'],$o['total'],$o['status'],$o['createdAt']]);foreach($o['items'] as $it)$is->execute([$o['id'],$it['id'],$it['name'],$it['unitPrice'],$it['quantity'],$it['lineTotal']]);}
 $p->exec("INSERT INTO reviews(product_id,user_id,rating,title,body) VALUES ('p001',1,5,'使いやすいです','軽くて持ち運びやすい商品でした。')");
 foreach(['localhost','127.0.0.1'] as $host){
-$p->exec("CREATE USER '$user'@'$host' IDENTIFIED BY 'NovaMart-Training-Only-2026'");
+$p->exec("CREATE USER '$user'@'$host' IDENTIFIED BY ".$p->quote($dbPass));
 foreach(['users','orders','order_items','reviews','customer_profiles'] as $table)$p->exec("GRANT SELECT,INSERT ON `$db`.`$table` TO '$user'@'$host'");
 $p->exec("GRANT DELETE ON `$db`.reviews TO '$user'@'$host'");
 $p->exec("GRANT SELECT,UPDATE(stock) ON `$db`.products TO '$user'@'$host'");$p->exec("GRANT UPDATE(address) ON `$db`.customer_profiles TO '$user'@'$host'");}

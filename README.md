@@ -50,7 +50,19 @@
 
 ### データベース
 
-`users`（会員）、`products`（商品）、`orders` / `order_items`（注文と注文明細）、`reviews`（レビュー）、`customer_profiles`（配送先）の6テーブルです。注文確定時は在庫と価格をDBから取得し、トランザクション内で注文と明細を保存しています。
+`users`（会員）、`products`（商品）、`orders` / `order_items`（注文と注文明細）、`reviews`（レビュー）、`customer_profiles`（配送先）の6テーブルです。
+
+## 注文確定の仕組み（`api/orders/create.php`）
+
+「注文を確定する」を押すと、PHP が次の処理を**1つのトランザクション**としてまとめて実行します。途中で1つでも失敗した場合は全体を取り消すので、「注文は保存されたのに在庫が減っていない」といった食い違いが起きません。
+
+1. カートの商品ごとに、DBから**最新の価格と在庫**を取得する（同時注文に備えて行をロック）
+2. 在庫が足りるかを確認し、足りなければ注文を中止する
+3. 小計と送料（3,500円以上で無料、未満は550円）をサーバー側で計算する
+4. 注文（`orders`）と注文明細（`order_items`）を保存する
+5. 注文した数だけ在庫（`products.stock`）を減らす
+
+金額はブラウザから送られた値を使わず、すべてDBの価格から計算しています。
 
 ## 安全に作るために気をつけたこと
 
@@ -65,11 +77,13 @@
 ## ローカルでの動かし方
 
 1. MAMP を起動し、このフォルダを MAMP のドキュメントルート（`htdocs`）配下に置く
-2. ターミナルで DB を作成する
+2. `config/config.local.example.php` を `config/config.local.php` という名前でコピーし、`pass` に任意のパスワードを設定する（このファイルは Git の管理対象外です）
+3. ターミナルでこのフォルダに移動し、MAMP 付属の PHP 8 で DB を作成する
    ```bash
-   php tools/setup.php
+   # 例：PHP のバージョン部分は MAMP の /Applications/MAMP/bin/php/ 内の実際のフォルダ名に合わせる
+   /Applications/MAMP/bin/php/php8.3.30/bin/php tools/setup.php
    ```
-3. ブラウザで `http://localhost:8888/<配置したフォルダ>/index.html` を開く
+4. ブラウザで `http://localhost:8888/<配置したフォルダ>/index.html` を開く
 
 動作確認用アカウント（架空）：`test@test.com` / `1234`
 
